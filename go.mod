@@ -1,4 +1,4 @@
-module chitram
+module gocomi
 
 go 1.18
 
