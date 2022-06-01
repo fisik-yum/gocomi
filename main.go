@@ -64,7 +64,7 @@ func main() {
 		defer f.Close()
 		for start != end.AddDate(0, 0, 1) {
 			fmt.Printf("\r %d/%d/%d", start.Year(), start.Month(), start.Day())
-			time.Sleep(1000 * time.Millisecond)
+			time.Sleep(500 * time.Millisecond)
 			lnk := getLink(name, start)
 			if ctrlLink == "" {
 				ctrlLink = lnk
@@ -86,7 +86,7 @@ func main() {
 		////DO NOT EDIT (for now)
 		for start != end.AddDate(0, 0, 1) {
 			fmt.Printf("\r %d/%d/%d", start.Year(), start.Month(), start.Day())
-			time.Sleep(1000 * time.Millisecond)
+			time.Sleep(500 * time.Millisecond)
 			lnk := getLink(name, start)
 			if ctrlLink == "" {
 				ctrlLink = lnk

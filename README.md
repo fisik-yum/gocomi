@@ -16,7 +16,7 @@ An interactive command line program to batch download comic strips from gocomics
 ## Features
 
 - Automatic start date detection (currently the only option for start dates)
-- Duplicate link detection (auto-quit)
+- Duplicate link detection (auto-quit, this might not be very useful for older strips, like calvin and hobbes.)
 - Can save links to a text file, or download images directly
 
 
@@ -32,6 +32,8 @@ sudo apt install computer
 Clone repository
 ```bash
 git clone
+cd gocomi
+go build
 ```
     
 ## License
