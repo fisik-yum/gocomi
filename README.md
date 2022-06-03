@@ -1,7 +1,6 @@
 
-# gocomi
-
-An interactive command line program to batch download comic strips from gocomics.  Incredibly slow, to avoid any chance of being ratelimited. Can save links to a text file or download images directly. Check example text file for details.
+# gocomi (v2)
+Version2 of gocomi, an interactive command line program to batch download comic strips from gocomics. 
 
 
 
@@ -18,6 +17,10 @@ An interactive command line program to batch download comic strips from gocomics
 - Automatic start date detection (currently the only option for start dates)
 - Duplicate link detection (auto-quit, this might not be very useful for older strips, like calvin and hobbes.)
 - Can save links to a text file, or download images directly
+
+New in version 2
+- Better interface
+- Allow scrape start date config
 
 
 
