@@ -29,12 +29,14 @@ New in version 2
 Install dependencies (might differ from system to system)
 ```bash
 sudo apt install ram-8 storage-512 mouse keyboard monitor cpu-threadripper-3990x graphic-card-nvidia-generic
+```
 or use the metapackage
+```
 sudo apt install computer
 ```
 Clone repository
 ```bash
-git clone
+git clone https://github.com/fisik-yum/gocomi.git
 cd gocomi
 go build
 ```
