@@ -1,4 +1,4 @@
 Each "module" must declare the following functions:
 
 func Search(term string) (results []Result)
-func Download(TBD)
+func Download(a DLdata)
